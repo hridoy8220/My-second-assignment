@@ -5,3 +5,174 @@
     font-weight: 700;
     font-style: normal;
 }
+main{
+    background-image: url(../assets/bg.png);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.displayflex{
+    display: flex;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div{
+    gap: 21px;
+}
+.item{
+    list-style: none;
+    margin-right: 30px;
+}
+.item-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.item-link1{
+    color: rgb(254, 163, 1);
+}
+.item-link2{
+    color: rgb(1, 172, 253);
+}
+.item-link3{
+    color: rgb(5, 212, 223);
+}
+.item-link4{
+    color: rgb(93, 88, 239);
+}
+.nav-bt{
+    border-radius: 12px;
+    border: none;
+   background: rgb(254, 163, 1);
+   color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+     padding: 15px;
+     width: 197px;
+}
+.banner{
+    justify-content: space-between;
+}
+.part{
+    max-width: 640px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 120px 50px 120px 0;
+}
+.banner-img{
+    width: 469px;
+}
+.banner-heading{
+   
+font-size: 56px;
+font-weight: 700;
+
+}
+.one{
+    color: rgb(254, 163, 1);
+}
+.three{
+    color: rgb(1, 172, 253);
+}
+.banner-para{
+    color: rgb(17, 17, 17);
+
+font-size: 20px;
+font-weight: 400;
+
+}
+.banner-bt{
+    border-radius: 12px;
+    border: none;
+   background: black;
+   color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+     padding: 15px;
+     width: 197px;
+
+}
+.first-section{
+    margin-top: 60px;
+    text-align: center;
+}
+.curriculum{
+    margin-top: 80px;
+    gap: 30px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.curriculum-banner-1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+padding: 55px;
+width: 367.8px;
+height: 476.78px;
+align-items: center;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+gap: 38px;
+}
+.curriculum-banner-2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+width: 367.8px;
+height: 476.78px;
+padding: 55px;
+align-items: center;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+gap: 38px;
+}
+.curriculum-banner-3{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+width: 367.8px;
+height: 476.78px;
+align-items: center;
+padding: 55px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+gap: 38px;
+}
+.banner-heading{
+    color: rgb(32, 32, 32);
+
+font-size: 24.52px;
+font-weight: 700;
+
+}
+.banner-para{
+    color: rgb(128, 128, 128);
+
+font-size: 15.09px;
+font-weight: 500;
+
+}
+.see-more{
+    color: rgb(100, 200, 255);
+
+font-size: 15.09px;
+font-weight: 700;
+
+}
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .curriculum{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

@@ -5,9 +5,8 @@
     font-weight: 700;
     font-style: normal;
 }
-main{
-    background-image: url(../assets/bg.png);
-}
+
+
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
@@ -99,6 +98,7 @@ font-weight: 400;
 .first-section{
     margin-top: 60px;
     text-align: center;
+    background-image: url(../assets/bg.png);
 }
 .curriculum{
     margin-top: 80px;
@@ -143,14 +143,28 @@ box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 gap: 38px;
 }
-.banner-heading{
+.bt{
+    border-radius: 30px;
+
+border: none;
+background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+width: 60px;
+height: 60px;
+font-size: 24px;
+font-weight: 700;
+margin-top: 80px;
+margin-right: 10px;
+
+}
+.banners-heading{
     color: rgb(32, 32, 32);
 
 font-size: 24.52px;
 font-weight: 700;
 
 }
-.banner-para{
+.banners-para{
     color: rgb(128, 128, 128);
 
 font-size: 15.09px;
@@ -163,7 +177,124 @@ font-weight: 500;
 font-size: 15.09px;
 font-weight: 700;
 
+
 }
+.second-section{
+    text-align: center;
+    margin-top: 60px;
+    background-image: url(../assets/bg.png), linear-gradient(rgba(255, 255, 255, 0.3),rgba(254, 163, 1, 0.3));
+    padding: 60px 0px 60px 0px ;
+   
+    
+}
+.banner-1{
+    border-radius: 16px;
+ background: rgb(255, 255, 255);
+ align-items: center;
+ width: 540.27px;
+height: 630.52px;
+margin-right: 19px;
+}
+.banner-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+.sub-banner{
+    border-radius: 20px;
+  background: rgb(255, 255, 255);
+  width: 290.69px;
+height: 301.61px;
+  
+}
+.sub-img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.banners{
+    padding: 80px 140px ;
+}
+.second-heading{
+    color: rgb(0, 0, 0);
+
+font-size: 46px;
+font-weight: 700;
+
+}
+.banner-1-img{
+    border-radius: 16px 16px 0px 0px;
+
+background: url(),rgb(217, 217, 217);
+width: 540px;
+height: 337px;
+}
+.sub-bt{
+    border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+color: rgb(255, 255, 255);
+border: none;
+font-size: 15.34px;
+font-weight: 500;
+padding: 10px 19px;
+position: absolute;
+margin-top: 160px;
+margin-left: -250px;
+
+}
+.sub-btn{
+    border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+color: rgb(255, 255, 255);
+border: none;
+font-size: 15.34px;
+font-weight: 500;
+padding: 10px 19px;
+position: absolute;
+margin-top: 320px;
+margin-left: -500px;
+
+}
+.set{
+    position: relative;
+    
+}
+.sub-para{
+    color: rgb(0, 0, 0);
+font-size: 15.34px;
+font-weight: 700;
+margin:23px 62px 34px 38px;
+
+
+}
+.benner1-heading{
+    color: rgb(0, 0, 0);
+
+font-size: 24px;
+font-weight: 700;
+margin-top: 30px;
+margin: 62px 100px 39px  41px;
+
+
+}
+.banner-para{
+    color: rgb(102, 102, 102);
+
+font-size: 15.34px;
+font-weight: 500;
+margin:  52px 67px 39px  35px;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .banner{

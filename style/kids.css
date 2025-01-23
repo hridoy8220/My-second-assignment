@@ -56,16 +56,18 @@
 }
 .bannerss{
     justify-content: space-between;
+    
    
 }
 .part{
     max-width: 640px;
     justify-content: flex-start;
     align-items: center;
-    margin: 120px 50px 120px 0;
+    margin: 120px 50px 120px 60px;
 }
 .banner-img{
-    width: 469px;
+    max-width: 98%;
+    margin: auto;
 }
 .banner-heading{
    
@@ -345,19 +347,29 @@ font-weight: 700;
 
 
 
-
+.icon{
+    display: none;
+}
+button:hover{
+    background-color: blueviolet;
+}
 
 
 @media screen and (max-width:576px) {
     .bannerss{
         flex-direction: column-reverse;
         text-align: center;
+        
     }
-    
+    .heading{
+        display: none;
+    }
+
     
     .curriculum{
         flex-direction: column;
         align-items: center;
+       
     
     }
     .banner{
@@ -402,7 +414,7 @@ font-weight: 700;
         flex-direction: column;
         
     }
-    .item,.item-link,.nav-bt{
+    .list,.nav-bt{
         display: none;
     }
     .footer{
@@ -416,6 +428,12 @@ font-weight: 700;
     .third-footer{
         margin-left: 20px;
         margin-bottom: 20px;
+    }
+    .icon{
+        display: block;
+    }
+    .banner-heading{
+        font-size: 32px;
     }
 
 }

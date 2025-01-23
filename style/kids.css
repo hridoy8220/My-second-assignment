@@ -7,9 +7,10 @@
 }
 
 
-.navbar, .banner{
+.navbar, .banner,.bannerss{
     max-width: 1440px;
     margin: 0 auto;
+
 }
 .displayflex{
     display: flex;
@@ -53,8 +54,9 @@
      padding: 15px;
      width: 197px;
 }
-.banner{
+.bannerss{
     justify-content: space-between;
+   
 }
 .part{
     max-width: 640px;
@@ -84,6 +86,7 @@ font-size: 20px;
 font-weight: 400;
 
 }
+
 .banner-bt{
     border-radius: 12px;
     border: none;
@@ -185,7 +188,6 @@ font-weight: 700;
     background-image: url(../assets/bg.png), linear-gradient(rgba(255, 255, 255, 0.3),rgba(254, 163, 1, 0.3));
     padding: 60px 0px 60px 0px ;
    
-    
 }
 .banner-1{
     border-radius: 16px;
@@ -288,8 +290,54 @@ margin:  52px 67px 39px  35px;
 }
 
 
+.footer{
+    background-color: rgb(1, 172, 253);
+    padding: 140px 123px 228px 175px;
+    
+}
 
+.footer-div{
+    justify-content: space-around;
+}
+.footer-para{
+    color: rgb(255, 255, 255);
 
+font-size: 20px;
+font-weight: 400;
+}
+.footer-heading{
+    color: rgb(255, 255, 255);
+
+font-size: 42.14px;
+font-weight: 700;
+
+}
+.second-fheading{
+    color: rgb(255, 255, 255);
+
+font-size: 24px;
+font-weight: 700;
+
+}
+.footer-ul{
+    list-style: none;
+   
+}
+.footer-li{
+    color: rgb(255, 255, 255);
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: 500;
+align-items: flex-start;
+
+}
+.third-heading{
+    color: rgb(255, 255, 255);
+
+font-size: 26px;
+font-weight: 700;
+
+}
 
 
 
@@ -297,13 +345,39 @@ margin:  52px 67px 39px  35px;
 
 
 @media screen and (max-width:576px) {
-    .banner{
+    .bannerss{
         flex-direction: column-reverse;
+        text-align: center;
     }
+    
     .curriculum{
         flex-direction: column;
         align-items: center;
-    }
-
     
+    }
+    .banner{
+        max-width: 100%;
+    }
+    .second-section{
+        justify-items: center;
+    }
+    .banner-1{
+        display: none;
+    }
+    .banner-2{
+        margin-left:-60px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .second-heading{
+        margin-left: -50px;
+    }
+    .footer-div{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .item,.item-link,.nav-bt{
+        display: none;
+    }
 }

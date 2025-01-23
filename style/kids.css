@@ -81,7 +81,6 @@ font-weight: 700;
 }
 .banner-para{
     color: rgb(17, 17, 17);
-
 font-size: 20px;
 font-weight: 400;
 
@@ -286,14 +285,19 @@ margin: 62px 100px 39px  41px;
 
 font-size: 15.34px;
 font-weight: 500;
-margin:  52px 67px 39px  35px;
+
+margin-top: 52px;
+margin-bottom: 39px;
 }
 
 
 .footer{
-    background-color: rgb(1, 172, 253);
+    background-color: rgb(55, 73, 81);
     padding: 140px 123px 228px 175px;
     
+}
+.first-sub-footer{
+    align-items: center;
 }
 
 .footer-div{
@@ -350,6 +354,7 @@ font-weight: 700;
         text-align: center;
     }
     
+    
     .curriculum{
         flex-direction: column;
         align-items: center;
@@ -365,19 +370,52 @@ font-weight: 700;
         display: none;
     }
     .banner-2{
-        margin-left:-60px;
-        grid-template-columns: repeat(1, 1fr);
+        
+        grid-template-columns: repeat(2, 1fr);
 
+    }
+    .sub-banner{
+        width: 173.09px;
+        height: 179.59px;
+
+    }
+    .sub-bt{
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 9.13px;
+        font-weight: 500;
+        padding: 9px 6px;
+        
+        margin-top: 100px;
+       margin-left: -140px;
+    }
+    .sub-para{
+     
+        font-size: 7px;
+        font-weight: 700;
+    
     }
     .second-heading{
         margin-left: -50px;
     }
     .footer-div{
         flex-direction: column;
-        align-items: flex-start;
         
     }
     .item,.item-link,.nav-bt{
         display: none;
     }
+    .footer{
+        padding:0px;
+        
+    }
+    .first-footer{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .third-footer{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
 }
